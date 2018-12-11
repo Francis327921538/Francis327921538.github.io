@@ -1,0 +1,250 @@
+{
+  "app": {
+    "name": "血液综合信息管理平台",
+    "description": "Blood Information Management Integrated System"
+  },
+  "user": {
+  },
+  "menu": [
+    {
+      "text": "主导航",
+      "i18n": "main_navigation",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "主面板",
+          "i18n": "dashboard",
+          "icon": "anticon antanticon anticon-dashboard",
+          "children": [
+            {
+              "text": "仪表盘V1",
+              "link": "/dashboard/v1",
+              "i18n": "dashboard_v1"
+            },
+            {
+              "text": "分析页",
+              "link": "/dashboard/analysis",
+              "i18n": "dashboard_analysis"
+            },
+            {
+              "text": "Monitor",
+              "link": "/dashboard/monitor",
+              "i18n": "dashboard_monitor"
+            },
+            {
+              "text": "Workplace",
+              "link": "/dashboard/workplace",
+              "i18n": "dashboard_workplace"
+            }
+          ]
+        },
+        {
+          "text": "bs",
+          "i18n": "bs",
+          "icon": "anticon antanticon anticon-appstore-o",
+          "hideInBreadcrumb": true,
+          "acl": {
+            "role": [
+              "bcb5cd59fe324188b773e6e3c9b06fba",
+              "e945af194a054359b1016bcb42da2423",
+              "ed19a093042142a08053eed2dba9b708",
+              "b05e305828df490b88b82415944b9653",
+              "904e155fa66b4820a839901c09401fdc",
+              "104c93d22a5b410d97eef44e82fa682e",
+              "9717b22345bd4904b8185a278a43b142"
+            ],
+            "mode": "oneOf"
+          },
+          "children": [
+            {
+              "text": "provider-info",
+              "link": "/pro/provider/info",
+              "i18n": "provider-info",
+              "acl": "6b1234d701264c6c97415c6e8981690d"
+            },
+            {
+              "text": "plasma-process",
+              "link": "/pro/bs/plasma-process",
+              "i18n": "bs-plasma-process",
+              "acl": "bcb5cd59fe324188b773e6e3c9b06fba"
+            },
+            {
+              "text": "register",
+              "link": "/pro/bs/register",
+              "i18n": "bs-register",
+              "acl": "e945af194a054359b1016bcb42da2423"
+            },
+            {
+              "text": "physical",
+              "link": "/pro/bs/physical",
+              "i18n": "bs-physical",
+              "acl": "ed19a093042142a08053eed2dba9b708"
+            },
+            {
+              "text": "collecting",
+              "link": "/pro/bs/collecting",
+              "i18n": "bs-collecting",
+              "acl": "b05e305828df490b88b82415944b9653"
+            },
+            {
+              "text": "sampling",
+              "link": "/pro/bs/sampling",
+              "i18n": "bs-sampling",
+              "acl": "904e155fa66b4820a839901c09401fdc"
+            },
+            {
+              "text": "assay",
+              "link": "/pro/bs/assay",
+              "i18n": "bs-assay",
+              "acl": "104c93d22a5b410d97eef44e82fa682e"
+            },
+            {
+              "text": "expense",
+              "link": "/pro/bs/expense",
+              "i18n": "bs-expense",
+              "acl": "9717b22345bd4904b8185a278a43b142"
+            },
+            {
+              "text": "m-repository",
+              "i18n": "m-repository",
+              "icon": "anticon anticon-database",
+              "hideInBreadcrumb": true,
+              "acl": {
+                "role": [
+                  "c82a3bd30006452e80932dd32e7531c0",
+                  "69e36294bcd0493ea438611922833ecd",
+                  "a1fe3e38fa0c47c8a7913dcbbc026f28",
+                  "85e2265da1ca43468eeadcd419c001ce"
+                ],
+                "mode": "oneOf"
+              },
+              "children": [
+                {
+                  "text": "plasma-stock",
+                  "link": "/pro/repository/plasma-stock",
+                  "i18n": "plasma-stock",
+                  "acl": "c82a3bd30006452e80932dd32e7531c0"
+                },
+                {
+                  "text": "plasma-stock-in",
+                  "link": "/pro/repository/plasma-stock-in",
+                  "i18n": "plasma-stock-in",
+                  "acl": "69e36294bcd0493ea438611922833ecd"
+                },
+                {
+                  "text": "plasma-stock-out",
+                  "link": "/pro/repository/plasma-stock-out",
+                  "i18n": "plasma-stock-out",
+                  "acl": "a1fe3e38fa0c47c8a7913dcbbc026f28"
+                },
+                {
+                  "text": "plasma-scrap",
+                  "link": "/pro/repository/plasma-scrap",
+                  "i18n": "plasma-scrap",
+                  "acl": "85e2265da1ca43468eeadcd419c001ce"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "供血浆证管理",
+          "i18n": "m-certification",
+          "icon": "anticon anticon-idcard",
+          "hideInBreadcrumb": true,
+          "acl": "b5a073d6f8b54fb98454df4c9061191a",
+          "children": [
+            {
+              "text": "供血浆证发放",
+              "link": "/certification/release",
+              "i18n": "certification-release",
+              "acl": "ba0a44641b9742c1ad3993ec9452c90c"
+            }
+          ]
+        },
+        {
+          "text": "abnormal",
+          "i18n": "abnormal",
+          "icon": "anticon anticon-exception",
+          "hideInBreadcrumb": true,
+          "acl": {
+            "role": [
+              "68df8de40de0499294f30db5f721b255",
+              "e59248af94934984af70bb3d5bd6a28b"
+            ],
+            "mode": "oneOf"
+          },
+          "children": [
+            {
+              "text": "same-name",
+              "link": "/pro/abnormal/same-name",
+              "i18n": "same-name",
+              "acl": "68df8de40de0499294f30db5f721b255"
+            },
+            {
+              "text": "multi-address",
+              "link": "/pro/abnormal/multi-address",
+              "i18n": "multi-address",
+              "acl": "e59248af94934984af70bb3d5bd6a28b"
+            }
+          ]
+        },
+        {
+          "text": "m-licence",
+          "i18n": "m-licence",
+          "icon": "anticon anticon-database",
+          "hideInBreadcrumb": true,
+          "children": [
+            {
+              "text": "m-licence",
+              "link": "/pro/licence/licence",
+              "i18n": "m-licence"
+            }
+          ]
+        },
+        {
+          "text": "系统管理",
+          "i18n": "m-system",
+          "hideInBreadcrumb": true,
+          "icon": "anticon anticon-setting",
+          "acl": {
+            "role": [
+              "68feeb18d6b211e58de018ad1a7b190c",
+              "d579b0578adc449eb805e61c9f6c3632",
+              "633fc8de03604540949fc49761ae6714",
+              "590c012d5346496aa01f7cce8e0b36d1"
+            ],
+            "mode": "oneOf"
+          },
+          "children": [
+            {
+              "text": "机构管理",
+              "i18n": "m-org",
+              "link": "/system/organization",
+              "acl": "68feeb18d6b211e58de018ad1a7b190c"
+            },
+            {
+              "text": "部门管理",
+              "i18n": "m-dep",
+              "link": "/system/department",
+              "acl": "d579b0578adc449eb805e61c9f6c3632"
+            },
+            {
+              "text": "职务管理",
+              "i18n": "m-role",
+              "link": "/system/role",
+              "acl": "633fc8de03604540949fc49761ae6714"
+            },
+            {
+              "text": "用户管理",
+              "i18n": "m-user",
+              "link": "/system/user",
+              "acl": "590c012d5346496aa01f7cce8e0b36d1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
